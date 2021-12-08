@@ -1,11 +1,11 @@
 import sys
-from App import App
-from pokemon.ClientRequestFactory import ClientRequestFactory
-from pokemon.PokemonRepository import PokemonRepository
-from .Trainer import Trainer
-from .TrainerAskView import TrainerAskView
-from .TrainerSinglePokemonView import TrainerSinglePokemonView
-from .TrainerPokemonView import TrainerPokemonView
+from ...core.infrastructure.App import App
+from ...core.infrastructure.ClientRequestFactory import ClientRequestFactory
+from ...pokemon.infrastructure.PokemonRepository import PokemonRepository
+from ...trainer.domain.Trainer import Trainer
+from ...trainer.application.TrainerAskView import TrainerAskView
+from ...trainer.application.TrainerSinglePokemonView import TrainerSinglePokemonView
+from ...trainer.application.TrainerPokemonView import TrainerPokemonView
 
 
 class TrainerView(App):

@@ -1,7 +1,7 @@
-from App import App
-from pokemon.PokemonView import PokemonView
-from trainer.TrainerView import TrainerView
-from MenuView import MenuView
+from ..infrastructure.App import App
+from ...pokemon.application import PokemonView
+from ...trainer.application import TrainerView
+from ...core.application import MenuView
 
 
 class PokemonCLI(App):

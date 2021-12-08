@@ -1,4 +1,4 @@
-from .ClientRequestFactory import ClientRequestFactory
+from ...core.infrastructure.ClientRequestFactory import ClientRequestFactory
 
 
 class PokemonPagination:

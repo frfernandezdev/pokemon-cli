@@ -1,6 +1,5 @@
-import requests
-from .PokemonPagination import PokemonPagination
-from .ClientRequestFactory import ClientRequestFactory
+from ...pokemon.infrastructure.PokemonPagination import PokemonPagination
+from ...core.infrastructure.ClientRequestFactory import ClientRequestFactory
 
 
 class PokemonRepository:

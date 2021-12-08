@@ -1,4 +1,4 @@
-from App import App
+from ...core.infrastructure.App import App
 
 
 class TrainerPokemonView(App):

@@ -1,6 +1,6 @@
 import os
-from Spinner import Spinner
 from simple_term_menu import TerminalMenu
+from .Spinner import Spinner
 
 
 class App:

@@ -1,4 +1,4 @@
-from App import App
+from ..infrastructure.App import App
 
 
 class MenuView(App):

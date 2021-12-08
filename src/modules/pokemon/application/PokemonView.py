@@ -1,7 +1,6 @@
-from App import App
-
-from .PokemonListView import PokemonListView
-from .PokemonSingleView import PokemonSingleView
+from ...core.infrastructure.App import App
+from ...pokemon.application.PokemonListView import PokemonListView
+from ...pokemon.application.PokemonSingleView import PokemonSingleView
 
 
 class PokemonView(App):

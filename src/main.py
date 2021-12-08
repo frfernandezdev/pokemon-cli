@@ -1,4 +1,4 @@
-from PokemonCLI import PokemonCLI
+from modules.core.application import PokemonCLI
 
 
 def main():

@@ -1,7 +1,7 @@
 import sys
-from App import App
-from pokemon.ClientRequestFactory import ClientRequestFactory
-from pokemon.PokemonRepository import PokemonRepository
+from ...core.infrastructure.App import App
+from ...core.infrastructure.ClientRequestFactory import ClientRequestFactory
+from ...pokemon.infrastructure.PokemonRepository import PokemonRepository
 
 
 class TrainerSinglePokemonView(App):
