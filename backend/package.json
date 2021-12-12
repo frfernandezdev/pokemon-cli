@@ -13,6 +13,7 @@
     "@types/mongodb": "^4.0.7",
     "@types/node": "^16.11.12",
     "amqplib": "^0.8.0",
+    "convict": "^6.2.1",
     "mongodb": "^4.2.1"
   },
   "devDependencies": {
