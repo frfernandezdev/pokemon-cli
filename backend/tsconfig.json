@@ -6,7 +6,7 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": false,
-		"baseUrl": "./",
+		"baseUrl": ".",
     "rootDir": ".",
     "strict": true,
     "noEmit": false,
@@ -15,7 +15,8 @@
     "outDir": "./dist"
   },
   "include": [
-    "src/**/**.ts"
+    "src/**/**.ts",
+		"tests/**/**.ts"
   ],
   "exclude": ["node_modules"]
 }
