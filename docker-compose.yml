@@ -1,0 +1,15 @@
+version: '3'
+
+
+services: 
+
+  mongo:
+    image: mongo:5.0
+    ports:
+      - 27017:27017
+
+  rabbitmq:
+    image: rabbitmq:3.9.11
+    ports:
+      - 5672:5672
+      - 15672:15672
